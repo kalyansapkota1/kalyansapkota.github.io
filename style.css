@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+body {
+    font-family: "Be Vietnam", sans-serif;
+    background-color: rgb(245, 245, 245);
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-wrapper {
+    padding: 20px;
+}
+
+.page-title {
+    color: rgb(27, 101, 133);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid rgb(27, 101, 133);
+}
+
+h2 {
+    color: rgb(27, 101, 133);
+}
+
+footer {
+    background-color: rgb(32, 86, 110);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
