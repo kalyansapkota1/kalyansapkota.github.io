@@ -5,10 +5,12 @@ body {
     background-color: rgb(245, 245, 245);
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .page-wrapper {
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .page-title {
@@ -19,8 +21,34 @@ body {
     border-bottom: 1.5px solid rgb(27, 101, 133);
 }
 
+.page-title a {
+    color: rgb(27, 101, 133);
+    text-decoration: none;
+}
+
 h2 {
     color: rgb(27, 101, 133);
+}
+
+.skills-list {
+    list-style: none;
+}
+.skills-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.skills-list li img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.skills-list li span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 footer {
